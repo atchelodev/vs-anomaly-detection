@@ -1,0 +1,14 @@
+///////////////////////////////////////////////ORIGINAL MODEL///////////////////////////////////////////////
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1s3qBXLZzMGAsmG8U0YTJJ4NOOK3KBakl' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1s3qBXLZzMGAsmG8U0YTJJ4NOOK3KBakl" -O original_models.tar.gz && rm -rf /tmp/cookies.txt
+
+
+
+///////////////////////////////////////////////DATASET TEST///////////////////////////////////////////////
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1ynzUmzihaAZkLXJ9jzhppK0eLMskhh1F' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1ynzUmzihaAZkLXJ9jzhppK0eLMskhh1F" -O dataset-test.tar.gz && rm -rf /tmp/cookies.txt
+
+
+///////////////////////////////////////////////DATASET TRAIN ABNORMAL///////////////////////////////////////////////
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Zv1CU7PxPDY5WyGc70Kt6SCDFqpjV7gX' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Zv1CU7PxPDY5WyGc70Kt6SCDFqpjV7gX" -O dataset-train-abnormal.tar.gz && rm -rf /tmp/cookies.txt
