@@ -12,3 +12,7 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 ///////////////////////////////////////////////DATASET TRAIN ABNORMAL///////////////////////////////////////////////
 
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Zv1CU7PxPDY5WyGc70Kt6SCDFqpjV7gX' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Zv1CU7PxPDY5WyGc70Kt6SCDFqpjV7gX" -O dataset-train-abnormal.tar.gz && rm -rf /tmp/cookies.txt
+
+///////////////////////////////////////////////DATASET TRAIN NORMAL///////////////////////////////////////////////
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1k63Qlfn3aU3_CpXxxAzPJ_hYqeSo38PP' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1k63Qlfn3aU3_CpXxxAzPJ_hYqeSo38PP" -O dataset-train-normal.tar.gz && rm -rf /tmp/cookies.txt
