@@ -5,7 +5,7 @@ from keras.layers import Dense, Dropout, Flatten
 import configuration as cfg
 from keras.layers import Conv3D, MaxPooling3D, ZeroPadding3D
 import numpy as np
-from scipy.misc import imresize
+#from scipy.misc import imresize
 from keras.utils import get_file
 from PIL import Image
 
