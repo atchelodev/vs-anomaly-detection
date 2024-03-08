@@ -16,7 +16,7 @@ class VideoFrameGenerator(keras.utils.Sequence):
             videos/class1/file2.avi
             videos/class2/file3.avi
     '''
-    def __init__(self, from_dir, batch_size=8, shape=(299, 299, 3), nbframe=16,
+    def __init__(self, from_dir, batch_size=8, shape=(299, 299, 3), nbframe=5,
                  shuffle=True, transform:keras.preprocessing.image.ImageDataGenerator=None
                 ):
         """
