@@ -27,7 +27,7 @@ model.compile(optimizer=opt, loss='categorical_crossentropy',
                   keras.metrics.top_k_categorical_accuracy
               ])
 
-model.fit_generator(videogen_train, epochs = 500, validation_data=videogen_test,
+model.fit_generator(videogen_train, epochs = 20, validation_data=videogen_test,
                     callbacks=[
                         keras.callbacks.ModelCheckpoint(
                             filepath="trained_models/rec_feats_weights.{epoch:03d}.h5",
