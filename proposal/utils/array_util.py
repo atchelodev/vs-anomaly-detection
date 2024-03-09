@@ -7,7 +7,7 @@ def sliding_window(arr, size, stride):
     for i in range(0,  num_chunks * stride, stride):
         if len(arr[i:i + size]) > 0:
             result.append(arr[i:i + size])
-    return np.array(result)
+    return np.array(result, dtype="object")
 
 
 def chunks(l, n):
