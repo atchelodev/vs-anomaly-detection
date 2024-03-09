@@ -9,7 +9,7 @@ import sklearn.preprocessing
 original_model = keras.models.load_model(cfg.extractor_model_weights)
 spatiotemporal_extractor = keras.models.Model(
     inputs = original_model.input,
-    outputs = original_model.get_layer("lstm_1").output
+    outputs = original_model.get_layer("lstm").output
 )
 
 normal_videos = os.listdir(cfg.normal_videos_path)
